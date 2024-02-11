@@ -196,17 +196,20 @@ header {
   }
 }
 
-.progress-line .python {
-  width: 95%;
-}
-.progress-line .ajax-jquery {
+.progress-line .Python {
   width: 90%;
 }
-.progress-line .html-css-bootstrap {
-  width: 90%;
+.progress-line .css {
+  width: 70%;
 }
-.progress-line .csharp-mvc5-dapper {
-  width: 90%;
+.progress-line .bootstrap {
+  width: 50%;
+}
+.progress-line .javascript {
+  width: 50%;
+}
+.progress-line .c {
+  width: 50%;
 }
 
 .bar .progress-line span::before {
@@ -235,17 +238,20 @@ header {
   border-radius: 3px;
 }
 
-.progress-line .python::after {
-  content: "95%";
+.progress-line .Python::after {
+  content: "100%";
 }
-.progress-line .ajax-jquery::after {
-  content: "90%";
+.progress-line .css::after {
+  content: "70%";
 }
-.progress-line .html-css-bootstrap::after {
-  content: "90%";
+.progress-line .bootstrap::after {
+  content: "50%";
 }
-.progress-line .csharp-mvc5-dapper::after {
-  content: "90%";
+.progress-line .javascript::after {
+  content: "50%";
+}
+.progress-line .c::after {
+  content: "50%";
 }
 
 .navbar.solid {
@@ -514,7 +520,7 @@ header {
 /* ////......Media query......//// */
 
 @media (max-width: 500px) {
-  html {
+  Python {
     font-size: 60%;
   }
 
@@ -581,7 +587,7 @@ header {
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
-  html {
+  Python {
     font-size: 65%;
   }
 
@@ -648,7 +654,7 @@ header {
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-  html {
+  Python {
     font-size: 70%;
   }
 
@@ -700,33 +706,4 @@ header {
   .header {
     height: 90vmax;
   }
-}
-
-.proj1-details {
-  background: #f4f4f4;
-  padding: 2rem;
-  border-radius: 5px;
-}
-
-.image-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1rem;
-}
-
-.image-container img {
-  width: 105%; /* Adjust the width as needed */
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.proj1-details h2 {
-  font-size: 2rem;
-  color: #07374a;
-}
-
-.proj1-details p {
-  font-size: 1.3rem;
-  color: #07374a;
-  font-weight: 600;
 }
