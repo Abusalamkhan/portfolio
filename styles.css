@@ -196,20 +196,17 @@ header {
   }
 }
 
-.progress-line .html {
-  width: 80%;
+.progress-line .python {
+  width: 95%;
 }
-.progress-line .css {
-  width: 70%;
+.progress-line .ajax-jquery {
+  width: 90%;
 }
-.progress-line .bootstrap {
-  width: 50%;
+.progress-line .html-css-bootstrap {
+  width: 90%;
 }
-.progress-line .javascript {
-  width: 50%;
-}
-.progress-line .c {
-  width: 50%;
+.progress-line .csharp-mvc5-dapper {
+  width: 90%;
 }
 
 .bar .progress-line span::before {
@@ -238,20 +235,17 @@ header {
   border-radius: 3px;
 }
 
-.progress-line .html::after {
-  content: "80%";
+.progress-line .python::after {
+  content: "95%";
 }
-.progress-line .css::after {
-  content: "70%";
+.progress-line .ajax-jquery::after {
+  content: "90%";
 }
-.progress-line .bootstrap::after {
-  content: "50%";
+.progress-line .html-css-bootstrap::after {
+  content: "90%";
 }
-.progress-line .javascript::after {
-  content: "50%";
-}
-.progress-line .c::after {
-  content: "50%";
+.progress-line .csharp-mvc5-dapper::after {
+  content: "90%";
 }
 
 .navbar.solid {
