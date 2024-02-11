@@ -196,20 +196,17 @@ header {
   }
 }
 
-.progress-line .Python {
+.progress-line .python {
+  width: 95%;
+}
+.progress-line .ajax-jquery {
   width: 90%;
 }
-.progress-line .css {
-  width: 70%;
+.progress-line .html-css-bootstrap {
+  width: 90%;
 }
-.progress-line .bootstrap {
-  width: 50%;
-}
-.progress-line .javascript {
-  width: 50%;
-}
-.progress-line .c {
-  width: 50%;
+.progress-line .csharp-mvc5-dapper {
+  width: 90%;
 }
 
 .bar .progress-line span::before {
@@ -238,20 +235,17 @@ header {
   border-radius: 3px;
 }
 
-.progress-line .Python::after {
-  content: "100%";
+.progress-line .python::after {
+  content: "95%";
 }
-.progress-line .css::after {
-  content: "70%";
+.progress-line .ajax-jquery::after {
+  content: "90%";
 }
-.progress-line .bootstrap::after {
-  content: "50%";
+.progress-line .html-css-bootstrap::after {
+  content: "90%";
 }
-.progress-line .javascript::after {
-  content: "50%";
-}
-.progress-line .c::after {
-  content: "50%";
+.progress-line .csharp-mvc5-dapper::after {
+  content: "90%";
 }
 
 .navbar.solid {
@@ -520,7 +514,7 @@ header {
 /* ////......Media query......//// */
 
 @media (max-width: 500px) {
-  Python {
+  html {
     font-size: 60%;
   }
 
@@ -587,7 +581,7 @@ header {
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
-  Python {
+  html {
     font-size: 65%;
   }
 
@@ -654,7 +648,7 @@ header {
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-  Python {
+  html {
     font-size: 70%;
   }
 
@@ -707,3 +701,52 @@ header {
     height: 90vmax;
   }
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proj-1, .proj-2, .covid-analysis {
+  width: calc(33.33% - 10px); /* Adjust as needed */
+}
+
+.proj1-details, .proj2-details, .analysis-details {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.proj1-details h2, .proj2-details h2, .analysis-details h2 {
+  font-size: 1.5rem;
+  color: #07374a;
+}
+
+.proj1-details p, .proj2-details p, .analysis-details p {
+  font-size: 1rem;
+  color: #07374a;
+  font-weight: 600;
+}
+
+.proj-1 img, .proj-2 img, .covid-analysis img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proj-1, .proj-2, .covid-analysis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.proj-1 img, .proj-2 img, .covid-analysis img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
