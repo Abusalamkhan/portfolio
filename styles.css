@@ -750,3 +750,48 @@ header {
 }
 
 
+
+
+
+
+
+
+
+.proj-1,
+.proj-2 {
+  width: 100%; /* Change the width to occupy the full width of the container */
+}
+
+.proj1-details,
+.proj2-details {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 20px; /* Adjust as needed */
+  text-align: center; /* Center align the text */
+}
+
+.proj1-details h2,
+.proj2-details h2 {
+  font-size: 1.5rem;
+  color: #07374a;
+  margin-bottom: 10px; /* Add margin at the bottom of the heading */
+}
+
+.proj1-details p,
+.proj2-details p {
+  font-size: 1rem;
+  color: #07374a;
+  font-weight: 600;
+  margin-bottom: 10px; /* Add margin at the bottom of the paragraph */
+}
+
+.proj-1 img,
+.proj-2 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
