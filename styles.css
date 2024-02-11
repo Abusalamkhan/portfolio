@@ -701,3 +701,32 @@ header {
     height: 90vmax;
   }
 }
+
+.proj1-details {
+  background: #f4f4f4;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.image-container img {
+  width: 105%; /* Adjust the width as needed */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proj1-details h2 {
+  font-size: 2rem;
+  color: #07374a;
+}
+
+.proj1-details p {
+  font-size: 1.3rem;
+  color: #07374a;
+  font-weight: 600;
+}
