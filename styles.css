@@ -517,3 +517,24 @@ header {
   }
 }
 
+.portfolio .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.portfolio .container > div {
+  flex-basis: calc(33.33% - 20px); /* Adjust as needed */
+  margin-bottom: 40px; /* Adjust as needed */
+  text-align: center;
+}
+
+.portfolio .container img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+
+
